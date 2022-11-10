@@ -2629,3 +2629,23 @@ select.mobile-device {
     height: 50px;
     margin: 15px;
 }
+
+/* widget adjustments */
+
+#css {
+    width: 40px;
+}
+
+#html {
+    height: 55px;
+    width: 65px;
+}
+
+#ejs {
+    height: 35px;
+    margin-bottom: 29px;
+}
+
+#EJScontainer {
+    min-height: 146px;
+}
