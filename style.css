@@ -2650,7 +2650,28 @@ select.mobile-device {
     min-height: 146px;
 }
 
+
+/* about section tweaks */ 
+
 .about-img {
     width: 1500px;
-    height: 240px;
+    max-height: 390px;
+}
+
+@media (min-width: 768px) {
+    .about-img {
+        min-height: 240px;
+    }
+}
+
+@media (min-width: 992px) {
+    .about-img {
+        min-height: 335px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-img {
+        min-height: 390px;
+    }
 }
