@@ -1700,7 +1700,6 @@ hr.invis1 {
 }
 
 .post-info ul{
-	display: block;
 	text-align: left;
 	margin-bottom: 15px;
 }
@@ -2674,4 +2673,13 @@ select.mobile-device {
     .about-img {
         min-height: 390px;
     }
+}
+
+.project-links {
+   display: flex;
+   justify-content: space-between;
+}
+
+.project-links li {
+    margin: 10px;
 }
