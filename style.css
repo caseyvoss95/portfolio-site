@@ -2661,6 +2661,9 @@ select.mobile-device {
     .about-img {
         min-height: 240px;
     }
+    .project {
+        margin-bottom: 500px; 
+    }
 }
 
 @media (min-width: 992px) {
@@ -2682,4 +2685,8 @@ select.mobile-device {
 
 .project-links li {
     margin: 10px;
+}
+
+.project {
+    max-height: 600px;
 }
