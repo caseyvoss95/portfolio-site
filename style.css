@@ -2661,8 +2661,14 @@ select.mobile-device {
     .about-img {
         min-height: 240px;
     }
-    .project {
-        margin-bottom: 500px; 
+}
+
+@media (max-width: 768px){
+    .project-medium {
+        display: none;
+    }
+    .project-large {
+        display: none;
     }
 }
 
@@ -2670,11 +2676,17 @@ select.mobile-device {
     .about-img {
         min-height: 335px;
     }
+    .project-large {
+        display: none;
+    }
 }
 
 @media (min-width: 1200px) {
     .about-img {
         min-height: 390px;
+    }
+    .project-medium {
+        display: none;
     }
 }
 
@@ -2685,8 +2697,4 @@ select.mobile-device {
 
 .project-links li {
     margin: 10px;
-}
-
-.project {
-    max-height: 600px;
 }
