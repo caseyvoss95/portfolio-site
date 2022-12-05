@@ -2657,6 +2657,12 @@ select.mobile-device {
     max-height: 390px;
 }
 
+/* @media (min-width: 576px) {
+    .glance {
+        display: none;
+    }
+} */
+
 @media (min-width: 768px) {
     .about-img {
         min-height: 240px;
@@ -2664,10 +2670,10 @@ select.mobile-device {
 }
 
 @media (max-width: 768px){
-    .project-medium {
+    .project-large {
         display: none;
     }
-    .project-large {
+    .glance {
         display: none;
     }
 }
@@ -2685,7 +2691,7 @@ select.mobile-device {
     .about-img {
         min-height: 390px;
     }
-    .project-medium {
+    .glance2 {
         display: none;
     }
 }
