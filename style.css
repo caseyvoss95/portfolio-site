@@ -2649,6 +2649,11 @@ select.mobile-device {
     min-height: 146px;
 }
 
+#materialize {
+    height: 100px;
+    width: 75px;
+}
+
 
 /* about section tweaks */ 
 
