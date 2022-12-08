@@ -2631,13 +2631,8 @@ select.mobile-device {
 
 /* widget adjustments */
 
-#css {
-    width: 40px;
-}
-
-#html {
-    height: 55px;
-    width: 65px;
+#cpp {
+    margin-top: -25px;
 }
 
 #ejs {
@@ -2653,7 +2648,6 @@ select.mobile-device {
     height: 100px;
     width: 75px;
 }
-
 
 /* about section tweaks */ 
 
