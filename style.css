@@ -2705,24 +2705,10 @@ select.mobile-device {
     margin: auto;
 }
 
-.tech-used  > i:hover {
-    opacity: 0;
-}
-
-/* .tech-text {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    transition: .25 ease;
-    background: red;
-} */
-
-.tech-text:hover {
-    opacity: 1;
-}
-
 .copyrights {
     margin-top: 75px;
+}
+
+.contain {
+    font-size: 50px;
 }

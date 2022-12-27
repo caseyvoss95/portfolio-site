@@ -35,7 +35,7 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+<script src="js/popper.js"></script>
 </head>
 
 <body id="page-top" class="politics_version">
@@ -203,11 +203,10 @@
 							methods to create a fake word/phrase. </p><br />
 						<p><em><strong>Technologies used:</em></p></strong></strong></p>
 						<div class="tech-used">
-							<i class="devicon-html5-plain colored"></i>
-							<!-- <div class="overlay">html</div> -->
-							<i class="devicon-css3-plain colored"></i>
-							<i class="devicon-javascript-plain colored"></i>
-							<i class="devicon-jquery-plain colored"></i>
+							<i class="devicon-html5-plain colored" data-toggle="tooltip" title="HTML5" data-placement="left"></i>
+							<i class="devicon-css3-plain colored" data-toggle="tooltip" title="CSS3" data-placement="left"></i>
+							<i class="devicon-javascript-plain colored" data-toggle="tooltip" title="JavaScript" data-placement="left"></i>
+							<i class="devicon-jquery-plain colored" data-toggle="tooltip" title="jQuery" data-placement="left"></i>
 						</div>
 					</div>
 				</div>
@@ -235,9 +234,9 @@
 						Generated Photos API to populate the random faces that appear on-screen.</p><br />
 					<p><em><strong>Technologies used:</em></p></strong></strong></p>
 					<div class="tech-used">
-						<i class="devicon-python-plain colored"></i>
-						<i class="devicon-django-plain colored"></i>
-						<i class="devicon-postgresql-plain colored"></i>
+						<i class="devicon-python-plain colored" data-toggle="tooltip" title="Python" data-placement="left"></i>
+						<i class="devicon-django-plain colored" data-toggle="tooltip" title="Django" data-placement="left"></i>
+						<i class="devicon-postgresql-plain colored" data-toggle="tooltip" title="PostgreSQL" data-placement="left"></i>
 					</div>
 					<div class="project-medium"><br /></div><br />
 				</div>
@@ -260,15 +259,15 @@
 				<h4>Setlystr</h4>
 				<p>A solution for musicians who need to quickly share their setlist with potential clients.</p>
 				<br /><br />
-				<p>A quasi-full-stack application utilizing the Express framework and MongoDB. Persists data through
-					MongoDB.</p><br /><br /><br />
+				<p>A quasi-full-stack application that utilizes the Express framework and persists data through MongoDB.
+				</p></span><br /><br /><br />
 				<p><em><strong>Technologies used:</em></p></strong></strong></p>
 				<div class="tech-used">
-					<i class="devicon-express-original colored"></i>
-					<i class="devicon-npm-original-wordmark colored"></i>
-					<i class="devicon-css3-plain colored"></i>
-					<i class="devicon-javascript-plain colored"></i>
-					<i class="devicon-mongodb-plain colored"></i>
+					<i class="devicon-express-original colored" data-toggle="tooltip" title="Express" data-placement="left"></i>
+					<i class="devicon-npm-original-wordmark colored" data-toggle="tooltip" title="NPM" data-placement="left"></i>
+					<i class="devicon-css3-plain colored" data-toggle="tooltip" title="CSS3" data-placement="left"></i>
+					<i class="devicon-javascript-plain colored" data-toggle="tooltip" title="JavaScript" data-placement="left"></i>
+					<i class="devicon-mongodb-plain colored" data-toggle="tooltip" title="MongoDB" data-placement="left"></i>
 				</div>
 				<div class="project-large"><br /><br /></div>
 			</div>
@@ -569,7 +568,12 @@
 		<!-- ALL PLUGINS -->
 		<script src="js/custom.js"></script>
 		<script src="js/jquery.vide.js"></script>
-
+		<!-- Boostrap Tooltip Plugin-->
+		<script>
+			$(function () {
+				$('[data-toggle="tooltip"]').tooltip()
+			}) 
+		</script>
 </body>
 
 </html>
