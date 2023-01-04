@@ -2664,21 +2664,34 @@ select.mobile-device {
 
 /* project section */
 
-@media (max-width: 768px){
-    .project-large {
+@media (min-width: 576px) and (max-width: 767px){
+    #project-1, #project-2 {
+        height: 660px;
+    }
+    .glance2 {
         display: none;
     }
-    .glance {
-        display: none;
+    
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .post-info {
+        height: 785px;
+    }
+    .custom-break {
+        height: 50.63px;
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px){
     .about-img {
         min-height: 335px;
     }
-    .project-large {
-        display: none;
+    .post-info {
+        height: 660px;
+    }
+    .custom-break{
+        height: 25.31px;
     }
 }
 
