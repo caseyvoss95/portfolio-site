@@ -2629,6 +2629,12 @@ select.mobile-device {
     margin: 15px;
 }
 
+/* custom styling begins below */
+
+#header-video {
+    margin-top: 30px;
+}
+
 /* widget adjustments */
 
 #cpp {
